@@ -21,3 +21,6 @@ different numbers of clusters. After fitting the Gaussian Mixture Model with a f
 
 ### Filters
 To improve the result of the segmentation i used max, min, and meadian filters on the segmented iamges.
+
+### Video
+To test the results i applied the process on a video, using OpenCV using different numbers of clusters.
