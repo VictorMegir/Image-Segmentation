@@ -12,6 +12,7 @@ I extracted the features from the last convolutional layer of the neural network
 ### Dimensionality Reduction
 To avoid the curse of dimensionality i reduced the extracted features using Principal Component Analysis (PCA). I used the scikit learn implementation of PCA with n=8 
 principal components and derived with 8 feature images for each input image.
+![Image](https://github.com/VictorMegir/Feature-Extraction-and-Image-Segmentation/blob/master/screenshots/Principal%20Components%20of%20features.png)
 
 ### Image Segmentation
 To perform image segmentation i used a Gaussian Mixture Model with the principal component features. I used the Gaussian Mixture Model implementation from scikit learn for
