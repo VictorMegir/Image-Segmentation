@@ -16,6 +16,7 @@ principal components and derived with 8 feature images for each input image.
 ### Image Segmentation
 To perform image segmentation i used a Gaussian Mixture Model with the principal component features. I used the Gaussian Mixture Model implementation from scikit learn for
 different numbers of clusters. After fitting the Gaussian Mixture Model with a few images i used it to perform segmentation on new images.
+![Image](https://github.com/VictorMegir/Feature-Extraction-and-Image-Segmentation/blob/master/screenshots/Segementation%20Example.png)
 
 ### Filters
 To improve the result of the segmentation i used max, min, and meadian filters on the segmented iamges.
