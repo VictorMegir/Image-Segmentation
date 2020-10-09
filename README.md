@@ -1,5 +1,5 @@
-# Feature Extraction and Image Segmentation
-Using the DeepLabv3+ neural network
+# Image Segmentation
+This repository contains the code of my diploma thesis.<br> I use the DeepLabV3+ neural network to extract deep features and i use a Gaussian Mixture Model to perform image segmentation.
 
 ### DeepLabv3+
 I used the DeepLabv3+ neural network with the xception architecture and pretrained weights on the PASCAL VOC 2012 semantic segmentation dataset.
@@ -20,7 +20,11 @@ different numbers of clusters. After fitting the Gaussian Mixture Model with a f
 ![Image](https://github.com/VictorMegir/Feature-Extraction-and-Image-Segmentation/blob/master/screenshots/Segementation%20Example.png)
 
 ### Filters
-To improve the result of the segmentation i used max, min, and meadian filters on the segmented iamges.
+To improve the result of the segmentation i used max, min, and meadian filters as well as morphological tranformations such as opening on the segmented iamges.
 
 ### Video
 To test the results i applied the process on a video, using Gaussian Mixture Models with different numbers of clusters.
+
+### DeepLab vs GMM
+To validate the results i compare the results of my system with DeepLab's segmentation.<br>
+In addition, i calculated the Intersection over Union (IoU) of the results using annotated images as ground truth. The annotated images were provided by user @https://github.com/sfikas
