@@ -27,4 +27,4 @@ To test the results i applied the process on a video, using Gaussian Mixture Mod
 
 ### DeepLab vs GMM
 To validate the results i compare the results of my system with DeepLab's segmentation.<br>
-In addition, i calculated the Intersection over Union (IoU) of the results using annotated images as ground truth. The annotated images were provided by user @https://github.com/sfikas
+In addition, i calculated the Intersection over Union (IoU) of the results using annotated images as ground truth. The annotated images were provided by user https://github.com/sfikas
